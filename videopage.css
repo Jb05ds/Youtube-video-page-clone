@@ -490,40 +490,6 @@
     margin-left: 25px;
     margin-top: 10px;
 }
-.right-videopage {
-    height: 800px;
-    margin-top: 32px;
-}
-.right-side-buttons-container {
-    display: flex;
-    position: relative;
-}
-.right-side-buttons {
-    padding: 8px 12px;
-    font-weight: 500;
-    margin-left: 5px;
-    border: none;
-    border-radius: 5px;
-    font-family: Roboto, Arial;
-    font-size: 14px;
-}
-.right-side-buttons.active {
-    color: white;
-    background-color: black;
-}
-.arrow {
-      position: absolute;
-      top: 50%;
-      right: 20px;
-      transform: translateY(-50%);
-      background: white;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 18px;
-      padding: 5px 10px;
-      z-index: 10;
-}
 @media (max-width:650px) {
     .video-page {
         display: grid;
